@@ -20,10 +20,10 @@ include_once('config.php');
 session_start();
 
 $user=$_POST['username'];
-$password=hash($_POST['password']);
+$password=md5($_POST['password']);
 
-$email = test_input($_POST["username"]);
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+//$email = test_input($_POST["username"]);
+if (!filter_var($user, FILTER_VALIDATE_EMAIL)) {
   $emailErr = "Invalid email format"; 
   echo "User Name Error";
 }
@@ -35,7 +35,7 @@ else
 	$rowcount=mysqli_num_rows($res);
 
 	if($rowcount>0){
-	  header ("location: http://iidt.edu.in");
+	  header ("location: homepage.html");
 	}else{
 		echo "wrong password";
 	}
