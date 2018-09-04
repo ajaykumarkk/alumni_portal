@@ -1,0 +1,193 @@
+    body#LoginForm {
+        background-image: url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+    }
+    
+    @media (max-width: 992px) {
+        .iidt-logo {
+            max-width: 150px;
+        }
+    }
+    
+    @media (min-width: 380px) and (max-width: 991px) {
+        .iidt-logo {
+            max-width: 130px;
+        }
+    }
+    
+    .panel h2 {
+        color: #444444;
+        font-size: 18px;
+        margin: 0 0 8px 0;
+    }
+    
+    .panel p {
+        color: #777777;
+        font-size: 14px;
+        margin-bottom: 30px;
+        line-height: 24px;
+    }
+    
+    @media (max-width: 768px) {
+        .panel p {
+            margin-bottom: 10px;
+            line-height: 15px;
+            font-size: 11px;
+        }
+    }
+    
+    .login-form .form-control {
+        background: #f7f7f7 none repeat scroll 0 0;
+        border: 1px solid #d4d4d4;
+        border-radius: 4px;
+        font-size: 14px;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    @media (max-width: 768px) {
+        .login-form .form-control {
+            background: #f7f7f7 none repeat scroll 0 0;
+            border: 1px solid #d4d4d4;
+            border-radius: 4px;
+            font-size: 14px;
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+    
+    .main-div {
+        background: #ffffff none repeat scroll 0 0;
+        border-radius: 2px;
+        margin: 10px auto 30px;
+        max-width: 38%;
+        padding: 50px 70px 70px 71px;
+    }
+    
+    @media (max-width: 992px) {
+        .main-div {
+            background: #ffffff none repeat scroll 0 0;
+            border-radius: 2px;
+            margin: 10px auto 30px;
+            max-width: 48%;
+            padding: 50px 30px 30px 50px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .main-div {
+            background: #ffffff none repeat scroll 0 0;
+            border-radius: 2px;
+            margin: 10px auto 30px;
+            max-width: 58%;
+            padding: 18px 30px 18px 30px;
+        }
+    }
+    
+    @media (min-width: 380px) and (max-width: 766px) {
+        .main-div {
+            background: #ffffff none repeat scroll 0 0;
+            border-radius: 2px;
+            margin: 10px auto 30px;
+            max-width: 68%;
+            padding: 15px 14px 15px 15px;
+        }
+    }
+    
+    .login-form .form-group {
+        margin-bottom: 10px;
+    }
+    
+    .login-form {
+        text-align: center;
+    }
+    
+    @media (max-width: 767px) {
+        .login-form {
+            margin-top: 90px !important;
+        }
+    }
+    
+    .forgot a {
+        color: #777777;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+    
+    .login-form .btn.btn-primary {
+        background: #f0ad4e none repeat scroll 0 0;
+        border-color: #f0ad4e;
+        color: #ffffff;
+        font-size: 14px;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+    }
+    
+    .forgot {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    
+    .botto-text {
+        color: #ffffff;
+        font-size: 14px;
+        margin: auto;
+    }
+    
+    .login-form .btn.btn-primary.reset {
+        background: #ff9900 none repeat scroll 0 0;
+    }
+    
+    .back {
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .back a {
+        color: #444444;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    /*alumni_homepage css*/
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    /* .bg-color {
+        background-color: #ff9900;
+    } */
+    
+    .alumni-btn {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    @media (max-width: 764px) {
+        .alumni-btn button {
+            margin-top: 20px;
+        }
+    }
+    
+    @media (max-width: 650px) {
+        .alumni-btn button {
+            padding: 5px 33px 5px 33px;
+            font-size: 14px;
+        }
+    }
+    
+    .alumni-btn button {
+        color: #ffffff;
+        background-color: #f0ad4e;
+        padding: 10px 45px 10px 45px;
+    }
+    
+    .alumni-btn button:hover {
+        background-color: #007bff;
+    }
