@@ -21,7 +21,7 @@
 
     <script>
         $(function() {
-            $("#nav-placeholder").load("nav.html");
+            $("#nav-placeholder").load("nav.php");
         });
     </script>
     <!--end of Navigation bar-->
@@ -38,15 +38,19 @@
 
             <!-- The slideshow -->
             <div class="carousel-inner">
+            <?php
+                $imageCarouselData=simplexml_load_file("config/carouselconfig.xml") or die("Error: Cannot create object");
+                foreach($imageCarouselData->children() as $image ){
+                    echo '<div class="carousel-item">
+                    <img src="'.$image.'" alt="Los Angeles" width="1100" height="300">
+                </div>';
+                }
+               
+                ?>
                 <div class="carousel-item active">
                     <img src="images\la.jpg" alt="Los Angeles" width="1100" height="500">
                 </div>
-                <div class="carousel-item">
-                    <img src="images\chicago.jpg" alt="Chicago" width="1100" height="500">
-                </div>
-                <div class="carousel-item">
-                    <img src="images\ny.jpg" alt="New York" width="1100" height="500">
-                </div>
+                
             </div>
 
             <!-- Left and right controls -->

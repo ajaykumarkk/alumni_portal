@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -154,10 +159,14 @@
         <a class="image-res" href="http://www.iidt.edu.in">
             <img id="logo" src="images/logo.png" alt="Skype Logo">
         </a>
+       
         <a href="homepage.html" class="active">Home</a>
         <a href="#">News</a>
         <a href="#">Contact</a>
         <a href="alumniinfo.php">Alumni</a>
+        <?php 
+        echo '<a href="#">Hello, '.$_SESSION['name'].'</a>';
+        ?>
         <a href="javascript:void(0);" style="font-size:17px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 

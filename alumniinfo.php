@@ -1,6 +1,5 @@
 <?php
-$dirname = "images/alumni/";
-$images = glob($dirname."*.jpg");
+
 include_once('config.php');
 $query="SELECT * from users";
 $result=mysqli_query($con,$query);

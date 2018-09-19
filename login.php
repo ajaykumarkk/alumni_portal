@@ -35,7 +35,10 @@ else
 	$rowcount=mysqli_num_rows($res);
 
 	if($rowcount>0){
-	  header ("location: homepage.html");
+		while($row=mysqli_fetch_array($res)){
+			$_SESSION['name']=$row['fullname'];
+		}
+	  header ("location: homepage.php");
 	}else{
 		echo "wrong password";
 	}
